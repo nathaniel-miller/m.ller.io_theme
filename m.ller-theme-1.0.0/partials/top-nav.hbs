@@ -1,0 +1,17 @@
+{{^is "home"}}
+  <nav class="navigation" role="banner">
+    <div class="navigation-wrapper">
+      <a href="{{@blog.url}}" class="logo">
+        <img src="{{asset "/images/build.svg"}}" alt="Build Something">
+        <span>{{@blog.title}}</span>
+      </a>
+      <nav role="navigation">
+        <a class="nav-link social" href="http://twitter.com/dukeoflaser" target="_blank"><i class="fa fa-twitter" aria-hidden="true"> </i></a>
+        <a class="nav-link social" href="http://instagram.com/dukeoflaser" target="_blank"><i class="fa fa-instagram" aria-hidden="true"> </i></a>
+        <a class="nav-link social" href="https://www.linkedin.com/in/nthnlmllr/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"> </i></a>
+        <a class="nav-link social" href="mailto:nathaniel@m.ller.io" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"> </i></a>
+        <a class="nav-link social" href="http://github.com/nathaniel-miller" target="_blank"><i class="fa fa-github" aria-hidden="true"> </i></a>
+      </nav>
+    </div>
+  </nav>
+{{/is}}

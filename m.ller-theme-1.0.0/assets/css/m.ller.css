@@ -1,0 +1,176 @@
+  nav.navigation a.logo img {
+    box-sizing: initial;
+    position: relative;
+    bottom: 5px;
+    width: 45px;
+    height: 45px;
+  }
+
+  header>section, nav.navigation {
+    border-bottom: 4px solid #ffe066;
+}
+
+nav.pagination img {
+    height: 6em;
+    margin-top: 1em;
+    position: relative;
+    top: 36px;
+}
+
+.footer .legal {
+    background-color: #c8da2e;
+    height: 3.5em;
+}
+.footer .legal aside {
+    line-height: 3em;
+    position: relative;
+    top: 20px;
+}
+
+nav.navigation nav .nav-link {
+  padding: .5em 5px 5px;
+}
+
+nav.navigation nav .nav-link:hover {
+  color: #ffe066;
+}
+
+/*TABLES*/
+
+.table {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+@media screen and (max-width: 580px) {
+  .table {
+    display: block;
+  }
+}
+
+.row {
+  display: table-row;
+  background: #f0f0f0;
+}
+.row:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+.row.header {
+  font-weight: 900;
+  font-family: nexa-bold,"sans-serif";
+  color: #ffffff;
+  background: #f26764;
+}
+.row.green {
+  background: #27ae60;
+}
+.row.blue {
+  background: #2980b9;
+}
+@media screen and (max-width: 580px) {
+  .row {
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+.cell {
+  padding: 6px 12px;
+  display: table-cell;
+}
+@media screen and (max-width: 580px) {
+  .cell {
+    padding: 2px 12px;
+    display: block;
+  }
+}
+
+/*HIGHLIGHT JS*/
+/*
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #4e4e4e;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-title,
+.hljs-name {
+  color: #f25f5c;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #ffe06a;
+}
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp {
+  color: #f25f5c;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-meta,
+.hljs-number,
+.hljs-link {
+  color: #066;
+}
+
+.hljs-title,
+.hljs-doctag,
+.hljs-type,
+.hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: #606;
+}
+
+.hljs-attribute,
+.hljs-subst {
+  color: #000;
+}
+
+.hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9B703F
+}
+
+.hljs-addition {
+  background-color: #baeeba;
+}
+
+.hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}

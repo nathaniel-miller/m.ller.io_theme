@@ -1,0 +1,15 @@
+<footer class="footer" role="contentinfo">
+  {{#is "index, tag, author"}}
+    {{pagination}}
+  {{else}}
+    <nav class="pagination" role="navigation">
+      <a href="{{@blog.url}}"><img src="{{asset "/images/building.svg"}}" alt="Build Something"></a>
+    </nav>
+  {{/is}}
+  <section class="legal">
+    <aside>
+      Copyright {{date format="YYYY"}} <a href="http://m.ller.io">m.ller.io</a>
+      <span class="page-description"> - {{@blog.description}}</span>
+    </aside>
+  </section>
+</footer>
