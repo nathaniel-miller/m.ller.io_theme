@@ -16,17 +16,9 @@
 
 </header>
 
-<main>
+<main class="showback">
   <section>
-    {{#foreach posts}}
-      {{#has tag="welcome"}}
-        {{> "post"}}
-      {{/has}}
-    {{/foreach}}
-  </section>
-  <hr>
-  <section>
-      {{#foreach posts limit="1"}}
+      {{#foreach posts limit="5"}}
         {{> "post"}}
       {{/foreach}}
   </section>
