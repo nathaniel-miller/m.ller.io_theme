@@ -1,7 +1,7 @@
 {
   "name": "m.ller",
   "version": "2.0.0",
-  "description": "Customized version of the Brage Ghost theme.",
+  "description": "Customized version of the Brage Ghost theme. Specifically coded for m.ller.io blog/website.",
   "repository": "https://github.com/nathaniel-miller/m.ller.io_theme",
   "license" : "MIT"
 }
